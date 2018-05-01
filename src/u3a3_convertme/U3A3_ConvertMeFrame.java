@@ -1,14 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Seth James England
+ * 01/05/2018
+ * a converter program
  */
 
 package u3a3_convertme;
 import java.text.DecimalFormat;
 /**
- *
- * @author seeng1309
+ * Seth James England
  */
 public class U3A3_ConvertMeFrame extends javax.swing.JFrame {
 
@@ -215,16 +214,36 @@ public class U3A3_ConvertMeFrame extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_enterButtonActionPerformed
         //here are my classes being declared
+    /**
+     * this is used to return the measurement value after converting it 
+     * @param measurement
+     * @return measurement*2.54
+     */
         private double inchesToCm(double measurement) {   
             return measurement *2.54;
     }
+         /**
+     * this is used to return the measurement value after converting it 
+     * @param measurement
+     * @return measurement*30
+     */
         private double feetToCm(double measurement) {
             return measurement *30;
     }
+         /**
+     * this is used to return the measurement value after converting it 
+     * @param measurement
+     * @return measurement*.91
+     */
         private double yardsToMeters(double measurement) {
             return measurement *.91;
 
     }
+         /**
+     * this is used to return the measurement value after converting it 
+     * @param measurement
+     * @return measurement*1.6
+     */
         private double milesToKm(double measurement) {
             return measurement *1.6;
     }
